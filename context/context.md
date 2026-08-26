@@ -3,12 +3,13 @@
 ## Techstack:
 - Frontend/Backend: Next.js (App Router) + TypeScript
 - Database: Supabase(Postgres)
-- Face ID:
+- Face ID: 
 - AI Support: Groq
-- Authentication:
+- Authentication: Clerk
 - Real-time chat: Supabase Realtime
 - Payment: Stripe (test)
 - Hosting: Vercel
+- CSS: Tailwind
 
 ## Architecture:
 - Clean architecture
@@ -28,13 +29,31 @@
 - Hỗ trợ chức năng trao đổi riêng cho các học sinh, giáo viên.
 - Hỗ trợ tự động thông báo các flag như chưa nộp học phí,...
 
+## Feature:
+### Đối với giáo viên:
+- Tạo, chỉnh sửa, xóa lớp học
+- Sắp xếp lịch học & làm việc
+- Quản lý học viên trong lớp
+- Nhắn tin với học viên, giáo viên và AI hỗ trợ của hệ thống
+- Liên kết tài khoản ngân hàng với hệ thống
+- Chỉnh sửa tài khoản, thông tin cá nhân
+### Đối với học viên:
+- Sắp xếp lịch học của bản thân
+- Xem, sửa và ngừng đăng ký với những lớp học
+- Xem trang giáo viên
+- Tìm kiếm giáo viên theo môn học, lịch học
+- Đăng ký môn học mới
+- Nhắn tin với giáo viên, học viên và AI hỗ trợ của hệ thống
+- Nhận thông báo về học phí, lịch học
+- Chỉnh sửa tài khoản, thông tin cá nhân
+
 ## Constraints:
 - Còn thiếu kiến thức nhiều
 - Team chỉ có 4 người -> thiếu nhân lực
 - Face-ID Validation là đề tài mới, chưa ai chạm vào
 - Ưu tiên tồn tại những chức năng core trước như đăng ký môn, quản lý lớp,...
 
-## Yêu cầu:
+## Requirements:
 - Bổ sung kiến thức thiếu gấp
 - Không bị mất liên lạc
 - Không magic code
